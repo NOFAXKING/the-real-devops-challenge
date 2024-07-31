@@ -1,0 +1,6 @@
+# pip-requirements
+Dockerfile
+requirements.txt
+server.py
+docker build -t my-server .
+docker run -p 8000:8000 my-server

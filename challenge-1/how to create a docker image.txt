@@ -1,0 +1,36 @@
+Now that you've updated the Dockerfile, you can try rebuilding the image and running it to verify that everything is working correctly.
+
+Here are the steps:
+
+Rebuild the image:
+Edit
+Copy code
+docker build -t my-server .
+This will rebuild the image using the updated Dockerfile.
+
+Run the image:
+Edit
+Copy code
+docker run -p 8000:8000 my-server
+This will start a new container from the my-server image and map port 8000 on the host machine to port 8000 in the container.
+
+Verify that the container is running:
+Edit
+Copy code
+docker ps
+This will show you a list of all running containers, including the one you just started.
+
+Test the application:
+Edit
+Copy code
+curl http://localhost:8000
+This will send a request to the application running in the container and print the response to the console.
+
+If everything is working correctly, you should see the output of the chalenge1.py script.
+
+Note: If you want to see the logs of the container, you can use the following command:
+
+Edit
+Copy code
+docker logs -f my-server
+This will show you the latest logs from the container. The -f flag tells Docker to follow the logs, so you'll see new logs as they're generated.
