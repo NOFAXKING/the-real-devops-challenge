@@ -4,7 +4,7 @@ This challenge was designed to look for your DevOps skills with some tasks that 
 
 Once completed, upload all files to reproduce the challenges and if you think is necessary create `SOLUTION.md` file to add some explanation in each challenge directory.
 
-In each challenge you can reach some tasks, some are mandatory and others optionals. If you want to do it and prove your knowledge, go for the optional ones! ;). If you have any doubt, don't hesitate to open an issue to ask any question about any challenge.
+In each challenge you can reach some tasks, some are mandatory and others optionals. If you want to do it and prove your knowledge, go for the optional ones! ;. If you have any doubt, don't hesitate to open an issue to ask any question about any challenge.
 
 ## Pre-requisites
 
